@@ -21,9 +21,8 @@ function funcD( a, b, c, d ){
     console.log(a, b, c, d)
     return a * b * c * d
 }
- 
 funcA()
 funcB(10, 20) //เราเรียกข้อมูลที่ส่งให้ parameter ว่า argument
- 
+console.log(funcA())
 console.log(funcC())
 console.log(funcD(1, 2, 3, 4)) //เราเรียกข้อมูลที่ส่งให้ parameter ว่า argument
